@@ -6,6 +6,7 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 cd "$SCRIPT_DIR" || exit 1
 
 # And machinesets for OCS
+# amazon instance pricing: https://aws.amazon.com/ec2/pricing/on-demand/
 #OCS_INSTANCE_TYPE="m5.4xlarge"
 OCS_INSTANCE_TYPE="m5a.8xlarge"
 OCS_PER_AZ=1
